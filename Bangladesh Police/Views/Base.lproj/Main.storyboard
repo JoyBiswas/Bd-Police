@@ -13,7 +13,7 @@
         <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="Bangladesh_Police" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeVC" customModule="Bangladesh_Police" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="28" id="EJe-wm-yyL"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                                         <color key="textColor" red="0.87058823529999996" green="0.86666666670000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -55,7 +55,7 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="Ujn-cn-fqP"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                         <color key="textColor" red="0.87058823529999996" green="0.86666666670000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -87,63 +87,78 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lQN-aq-0o5">
-                                <rect key="frame" x="0.0" y="148" width="320" height="420"/>
+                                <rect key="frame" x="0.0" y="148" width="320" height="422"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="864-Q3-CM2">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="864-Q3-CM2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686274509803" green="0.0" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Open Police Phonebook">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-lp-ntN">
-                                        <rect key="frame" x="0.0" y="53" width="320" height="50.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-lp-ntN">
+                                        <rect key="frame" x="0.0" y="53" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Search Name / Number">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIB-ST-ZmV">
-                                        <rect key="frame" x="0.0" y="105.5" width="320" height="51"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIB-ST-ZmV">
+                                        <rect key="frame" x="0.0" y="106" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="About Software Developer">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-a5-g6Z">
-                                        <rect key="frame" x="0.0" y="158.5" width="320" height="50.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-a5-g6Z">
+                                        <rect key="frame" x="0.0" y="159" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Help Manu / Option">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="helpMenundOption:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2R4-ie-WZl"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWl-Tw-Mkr">
-                                        <rect key="frame" x="0.0" y="211" width="320" height="51"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWl-Tw-Mkr">
+                                        <rect key="frame" x="0.0" y="212" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Instruction Must be Read">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="instructionMust:" destination="BYZ-38-t0r" eventType="touchUpInside" id="awV-fP-FQ2"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86p-sG-7EJ">
-                                        <rect key="frame" x="0.0" y="264" width="320" height="50.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86p-sG-7EJ">
+                                        <rect key="frame" x="0.0" y="265" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Update This Application">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="updateThisApplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3vb-j7-XHN"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds9-9P-o5v">
-                                        <rect key="frame" x="0.0" y="316.5" width="320" height="51"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds9-9P-o5v">
+                                        <rect key="frame" x="0.0" y="318" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Share This Application">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="shareThisApplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AxC-YZ-d7b"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxG-7R-gFr">
-                                        <rect key="frame" x="0.0" y="369.5" width="320" height="50.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxG-7R-gFr">
+                                        <rect key="frame" x="0.0" y="371" width="320" height="51"/>
                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Install More Application">
                                             <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="installMore_Application:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axO-kn-bKH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -154,22 +169,85 @@
                             <constraint firstItem="GN1-VJ-AU4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NSe-C4-HyN"/>
                             <constraint firstItem="lQN-aq-0o5" firstAttribute="top" secondItem="vTV-g3-9JR" secondAttribute="bottom" constant="2" id="SSo-gp-xfx"/>
                             <constraint firstItem="vTV-g3-9JR" firstAttribute="trailing" secondItem="GN1-VJ-AU4" secondAttribute="trailing" id="UYQ-5r-pfh"/>
+                            <constraint firstItem="lQN-aq-0o5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="2" id="VLO-dn-vFe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lQN-aq-0o5" secondAttribute="trailing" id="Vxo-dN-sU7"/>
                             <constraint firstItem="vTV-g3-9JR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="X77-3O-YdD"/>
                             <constraint firstItem="lQN-aq-0o5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ePN-3t-mMV"/>
                             <constraint firstAttribute="trailing" secondItem="GN1-VJ-AU4" secondAttribute="trailing" id="f6W-oh-8U5"/>
                             <constraint firstItem="vTV-g3-9JR" firstAttribute="leading" secondItem="GN1-VJ-AU4" secondAttribute="leading" id="hxF-sX-3NB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lQN-aq-0o5" secondAttribute="bottom" id="wO5-fH-vD2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="e94-gw-4bp">
                         <nil key="title"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="animationView" destination="vTV-g3-9JR" id="DOx-cJ-5bI"/>
+                        <segue destination="ERk-Ul-pES" kind="show" identifier="toWebView" id="mho-dA-lL7"/>
+                        <segue destination="0M5-oG-iEc" kind="show" identifier="toInstruction" id="PzZ-bB-uTv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-695.20000000000005" y="-627.4362818590705"/>
+            <point key="canvasLocation" x="-1016" y="-849"/>
+        </scene>
+        <!--Instructionnd HelpVC-->
+        <scene sceneID="Kyn-Ko-kET">
+            <objects>
+                <viewController storyboardIdentifier="InstructionndHelpVC" id="0M5-oG-iEc" customClass="InstructionndHelpVC" customModule="Bangladesh_Police" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EAS-gR-84F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ayu-H3-DQx">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mz1-3G-TkC"/>
+                    </view>
+                    <connections>
+                        <outlet property="textViewForInstruction" destination="ayu-H3-DQx" id="F3H-Bg-FyB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFq-W7-sJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-360" y="-847.18309859154931"/>
+        </scene>
+        <!--Go To Web View-->
+        <scene sceneID="xTq-e9-a6f">
+            <objects>
+                <viewController storyboardIdentifier="GoToWebView" id="ERk-Ul-pES" customClass="GoToWebView" customModule="Bangladesh_Police" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZYP-Rh-US5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vd-I5-ovU">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" red="0.0031211159657686949" green="0.0" blue="0.32911992073059082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.0" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2vd-I5-ovU" firstAttribute="leading" secondItem="z2q-2l-bwm" secondAttribute="leading" id="4Wj-rs-cGN"/>
+                            <constraint firstItem="2vd-I5-ovU" firstAttribute="top" secondItem="z2q-2l-bwm" secondAttribute="top" id="YO5-kA-Nhv"/>
+                            <constraint firstItem="z2q-2l-bwm" firstAttribute="bottom" secondItem="2vd-I5-ovU" secondAttribute="bottom" id="ZzV-OU-xwg"/>
+                            <constraint firstItem="z2q-2l-bwm" firstAttribute="trailing" secondItem="2vd-I5-ovU" secondAttribute="trailing" id="bmD-5B-DJB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z2q-2l-bwm"/>
+                    </view>
+                    <connections>
+                        <outlet property="WebView" destination="2vd-I5-ovU" id="ZfX-Sl-ZeI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7O5-n0-kXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1016" y="-183"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="umx-2f-7tA">
@@ -187,7 +265,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Do0-PJ-x2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1703" y="-627"/>
+            <point key="canvasLocation" x="-1778" y="-579"/>
         </scene>
     </scenes>
     <resources>

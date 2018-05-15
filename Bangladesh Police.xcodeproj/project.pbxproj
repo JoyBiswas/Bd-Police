@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		090B8D1620A96C7A00DB1971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D1520A96C7A00DB1971 /* AppDelegate.swift */; };
-		090B8D1820A96C7A00DB1971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D1720A96C7A00DB1971 /* ViewController.swift */; };
 		090B8D1B20A96C7A00DB1971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B8D1920A96C7A00DB1971 /* Main.storyboard */; };
 		090B8D1E20A96C7A00DB1971 /* Bangladesh_Police.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D1C20A96C7A00DB1971 /* Bangladesh_Police.xcdatamodeld */; };
 		090B8D2020A96C7B00DB1971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B8D1F20A96C7B00DB1971 /* Assets.xcassets */; };
 		090B8D2320A96C7B00DB1971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090B8D2120A96C7B00DB1971 /* LaunchScreen.storyboard */; };
+		090B8D2B20A96D7A00DB1971 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D2A20A96D7A00DB1971 /* HomeVC.swift */; };
+		090B8D3120A96F8800DB1971 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D3020A96F8800DB1971 /* CircleImageView.swift */; };
+		090B8D3320A9778D00DB1971 /* GoToWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B8D3220A9778D00DB1971 /* GoToWebView.swift */; };
+		096701A020AAA3E90012D1C9 /* InstructionndHelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967019F20AAA3E90012D1C9 /* InstructionndHelpVC.swift */; };
+		096701A220AAA45E0012D1C9 /* InstructionNdHelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096701A120AAA45E0012D1C9 /* InstructionNdHelpModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		090B8D1220A96C7A00DB1971 /* Bangladesh Police.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bangladesh Police.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		090B8D1520A96C7A00DB1971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		090B8D1720A96C7A00DB1971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		090B8D1A20A96C7A00DB1971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		090B8D1D20A96C7A00DB1971 /* Bangladesh_Police.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bangladesh_Police.xcdatamodel; sourceTree = "<group>"; };
 		090B8D1F20A96C7B00DB1971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090B8D2220A96C7B00DB1971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		090B8D2420A96C7B00DB1971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090B8D2A20A96D7A00DB1971 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		090B8D3020A96F8800DB1971 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		090B8D3220A9778D00DB1971 /* GoToWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToWebView.swift; sourceTree = "<group>"; };
+		0967019F20AAA3E90012D1C9 /* InstructionndHelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionndHelpVC.swift; sourceTree = "<group>"; };
+		096701A120AAA45E0012D1C9 /* InstructionNdHelpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionNdHelpModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		090B8D1420A96C7A00DB1971 /* Bangladesh Police */ = {
 			isa = PBXGroup;
 			children = (
-				090B8D1520A96C7A00DB1971 /* AppDelegate.swift */,
-				090B8D1720A96C7A00DB1971 /* ViewController.swift */,
-				090B8D1920A96C7A00DB1971 /* Main.storyboard */,
+				090B8D2F20A96F0400DB1971 /* Supporting Fiels */,
+				090B8D2E20A96EF400DB1971 /* Controllers */,
+				090B8D2D20A96EEA00DB1971 /* Views */,
+				090B8D2C20A96EE000DB1971 /* Models */,
 				090B8D1F20A96C7B00DB1971 /* Assets.xcassets */,
+			);
+			path = "Bangladesh Police";
+			sourceTree = "<group>";
+		};
+		090B8D2C20A96EE000DB1971 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				096701A120AAA45E0012D1C9 /* InstructionNdHelpModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		090B8D2D20A96EEA00DB1971 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				090B8D2120A96C7B00DB1971 /* LaunchScreen.storyboard */,
+				090B8D1920A96C7A00DB1971 /* Main.storyboard */,
+				090B8D3020A96F8800DB1971 /* CircleImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		090B8D2E20A96EF400DB1971 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				090B8D3220A9778D00DB1971 /* GoToWebView.swift */,
+				090B8D2A20A96D7A00DB1971 /* HomeVC.swift */,
+				0967019F20AAA3E90012D1C9 /* InstructionndHelpVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		090B8D2F20A96F0400DB1971 /* Supporting Fiels */ = {
+			isa = PBXGroup;
+			children = (
+				090B8D1520A96C7A00DB1971 /* AppDelegate.swift */,
 				090B8D2420A96C7B00DB1971 /* Info.plist */,
 				090B8D1C20A96C7A00DB1971 /* Bangladesh_Police.xcdatamodeld */,
 			);
-			path = "Bangladesh Police";
+			path = "Supporting Fiels";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090B8D1820A96C7A00DB1971 /* ViewController.swift in Sources */,
+				090B8D3120A96F8800DB1971 /* CircleImageView.swift in Sources */,
+				090B8D2B20A96D7A00DB1971 /* HomeVC.swift in Sources */,
+				096701A020AAA3E90012D1C9 /* InstructionndHelpVC.swift in Sources */,
 				090B8D1E20A96C7A00DB1971 /* Bangladesh_Police.xcdatamodeld in Sources */,
+				096701A220AAA45E0012D1C9 /* InstructionNdHelpModel.swift in Sources */,
+				090B8D3320A9778D00DB1971 /* GoToWebView.swift in Sources */,
 				090B8D1620A96C7A00DB1971 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +333,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bangladesh Police/Info.plist";
+				DEVELOPMENT_TEAM = 8MBSDR4W6C;
+				INFOPLIST_FILE = "$(SRCROOT)/Bangladesh Police/Supporting Fiels/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +352,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Bangladesh Police/Info.plist";
+				DEVELOPMENT_TEAM = 8MBSDR4W6C;
+				INFOPLIST_FILE = "$(SRCROOT)/Bangladesh Police/Supporting Fiels/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

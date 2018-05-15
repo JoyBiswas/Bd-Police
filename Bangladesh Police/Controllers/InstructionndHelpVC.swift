@@ -6,4 +6,20 @@
 //  Copyright © 2018 RIO. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class InstructionndHelpVC:UIViewController {
+    
+    @IBOutlet weak var textViewForInstruction: UITextView!
+    
+    var catchInstruction = String()
+    
+   
+    override func viewDidLoad() {
+        
+        if catchInstruction != "" {
+        self.textViewForInstruction.text = self.catchInstruction
+    }
+    
+    }
+}
