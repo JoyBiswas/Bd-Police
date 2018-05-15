@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aSA-eU-Dva">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="Bangladesh_Police" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GN1-VJ-AU4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.34558108448982239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="37R-03-nGz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTV-g3-9JR">
+                                <rect key="frame" x="0.0" y="64" width="320" height="82"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HV8-GO-awo">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="policeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hdj-Uw-7yy" customClass="CircleImageView" customModule="Bangladesh_Police" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="82" id="Ikg-P2-hu2"/>
+                                                    <constraint firstAttribute="width" constant="82" id="bO6-cQ-Xh3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="LsX-0m-kEF">
+                                                <rect key="frame" x="82" y="0.0" width="238" height="82"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="বাংলাদেশ    পুলিশ" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuh-nC-d06">
+                                                        <rect key="frame" x="15" y="0.0" width="223" height="28"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="28" id="EJe-wm-yyL"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                        <color key="textColor" red="0.87058823529999996" green="0.86666666670000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bangladesh Police" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vW-bL-OVt">
+                                                        <rect key="frame" x="15" y="28" width="223" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="Ujn-cn-fqP"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="textColor" red="0.87058823529999996" green="0.86666666670000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decipine , Security , Progress" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZq-fA-OH9">
+                                                        <rect key="frame" x="15" y="52" width="223" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="1vW-bL-OVt" secondAttribute="trailing" id="6H4-li-SZf"/>
+                                                    <constraint firstItem="1vW-bL-OVt" firstAttribute="leading" secondItem="LsX-0m-kEF" secondAttribute="leading" constant="15" id="8G0-4Q-lKl"/>
+                                                    <constraint firstAttribute="bottom" secondItem="CZq-fA-OH9" secondAttribute="bottom" id="LU4-cD-1tu"/>
+                                                    <constraint firstItem="zuh-nC-d06" firstAttribute="leading" secondItem="LsX-0m-kEF" secondAttribute="leading" constant="15" id="PfZ-DS-SXK"/>
+                                                    <constraint firstItem="CZq-fA-OH9" firstAttribute="leading" secondItem="LsX-0m-kEF" secondAttribute="leading" constant="15" id="Tb2-Gf-npb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="CZq-fA-OH9" secondAttribute="trailing" id="Wps-ak-TrI"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.0" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="HV8-GO-awo" firstAttribute="leading" secondItem="vTV-g3-9JR" secondAttribute="leading" id="KCL-c0-QjW"/>
+                                    <constraint firstAttribute="bottom" secondItem="HV8-GO-awo" secondAttribute="bottom" id="Zka-pr-zTi"/>
+                                    <constraint firstItem="HV8-GO-awo" firstAttribute="top" secondItem="vTV-g3-9JR" secondAttribute="top" id="nJk-1s-6lj"/>
+                                    <constraint firstAttribute="trailing" secondItem="HV8-GO-awo" secondAttribute="trailing" id="r9C-Gc-vs7"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lQN-aq-0o5">
+                                <rect key="frame" x="0.0" y="148" width="320" height="420"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="864-Q3-CM2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
+                                        <color key="backgroundColor" red="0.0039215686274509803" green="0.0" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Open Police Phonebook">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-lp-ntN">
+                                        <rect key="frame" x="0.0" y="53" width="320" height="50.5"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Search Name / Number">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIB-ST-ZmV">
+                                        <rect key="frame" x="0.0" y="105.5" width="320" height="51"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="About Software Developer">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-a5-g6Z">
+                                        <rect key="frame" x="0.0" y="158.5" width="320" height="50.5"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Help Manu / Option">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWl-Tw-Mkr">
+                                        <rect key="frame" x="0.0" y="211" width="320" height="51"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Instruction Must be Read">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86p-sG-7EJ">
+                                        <rect key="frame" x="0.0" y="264" width="320" height="50.5"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Update This Application">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds9-9P-o5v">
+                                        <rect key="frame" x="0.0" y="316.5" width="320" height="51"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Share This Application">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxG-7R-gFr">
+                                        <rect key="frame" x="0.0" y="369.5" width="320" height="50.5"/>
+                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.0" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Install More Application">
+                                            <color key="titleColor" red="0.87020611763000488" green="0.86643463373184204" blue="0.90537911653518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87058823529411766" green="0.8666666666666667" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GN1-VJ-AU4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Eil-Wc-WDN"/>
+                            <constraint firstItem="GN1-VJ-AU4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NSe-C4-HyN"/>
+                            <constraint firstItem="lQN-aq-0o5" firstAttribute="top" secondItem="vTV-g3-9JR" secondAttribute="bottom" constant="2" id="SSo-gp-xfx"/>
+                            <constraint firstItem="vTV-g3-9JR" firstAttribute="trailing" secondItem="GN1-VJ-AU4" secondAttribute="trailing" id="UYQ-5r-pfh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lQN-aq-0o5" secondAttribute="trailing" id="Vxo-dN-sU7"/>
+                            <constraint firstItem="vTV-g3-9JR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="X77-3O-YdD"/>
+                            <constraint firstItem="lQN-aq-0o5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ePN-3t-mMV"/>
+                            <constraint firstAttribute="trailing" secondItem="GN1-VJ-AU4" secondAttribute="trailing" id="f6W-oh-8U5"/>
+                            <constraint firstItem="vTV-g3-9JR" firstAttribute="leading" secondItem="GN1-VJ-AU4" secondAttribute="leading" id="hxF-sX-3NB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lQN-aq-0o5" secondAttribute="bottom" id="wO5-fH-vD2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e94-gw-4bp">
+                        <nil key="title"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695.20000000000005" y="-627.4362818590705"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="umx-2f-7tA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aSA-eU-Dva" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B6M-jH-84a">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8LF-Ba-LOr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Do0-PJ-x2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1703" y="-627"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="policeLogo" width="225" height="225"/>
+    </resources>
+</document>
